@@ -47,10 +47,10 @@ F 3 "http://www.ti.com/lit/ds/symlink/cd74hc4067.pdf" H 9410 2570 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Connector_Generic:Conn_01x03 J4
+L Connector_Generic:Conn_01x03 J3
 U 1 1 6025EAB3
 P 6050 5750
-F 0 "J4" H 6130 5792 50  0000 L CNN
+F 0 "J3" H 6130 5792 50  0000 L CNN
 F 1 "Conn_01x03" H 6130 5701 50  0000 L CNN
 F 2 "Connector_PinHeader_1.27mm:PinHeader_1x03_P1.27mm_Vertical" H 6050 5750 50  0001 C CNN
 F 3 "~" H 6050 5750 50  0001 C CNN
@@ -58,10 +58,10 @@ F 3 "~" H 6050 5750 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Connector_Generic:Conn_01x03 J8
+L Connector_Generic:Conn_01x03 J12
 U 1 1 6025EF94
 P 1550 7540
-F 0 "J8" H 1630 7582 50  0000 L CNN
+F 0 "J12" H 1630 7582 50  0000 L CNN
 F 1 "Conn_01x03" H 1630 7491 50  0000 L CNN
 F 2 "Connector_PinHeader_1.27mm:PinHeader_1x03_P1.27mm_Vertical" H 1550 7540 50  0001 C CNN
 F 3 "~" H 1550 7540 50  0001 C CNN
@@ -69,10 +69,10 @@ F 3 "~" H 1550 7540 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Connector_Generic:Conn_01x03 J12
+L Connector_Generic:Conn_01x03 J9
 U 1 1 6025F31B
 P 3050 6940
-F 0 "J12" H 3130 6982 50  0000 L CNN
+F 0 "J9" H 3130 6982 50  0000 L CNN
 F 1 "Conn_01x03" H 3130 6891 50  0000 L CNN
 F 2 "Connector_PinHeader_1.27mm:PinHeader_1x03_P1.27mm_Vertical" H 3050 6940 50  0001 C CNN
 F 3 "~" H 3050 6940 50  0001 C CNN
@@ -80,10 +80,10 @@ F 3 "~" H 3050 6940 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Connector_Generic:Conn_01x03 J16
+L Connector_Generic:Conn_01x03 J15
 U 1 1 6025F6C1
 P 6050 7540
-F 0 "J16" H 6130 7582 50  0000 L CNN
+F 0 "J15" H 6130 7582 50  0000 L CNN
 F 1 "Conn_01x03" H 6130 7491 50  0000 L CNN
 F 2 "Connector_PinHeader_1.27mm:PinHeader_1x03_P1.27mm_Vertical" H 6050 7540 50  0001 C CNN
 F 3 "~" H 6050 7540 50  0001 C CNN
@@ -91,10 +91,10 @@ F 3 "~" H 6050 7540 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Connector_Generic:Conn_01x03 J10
+L Connector_Generic:Conn_01x03 J2
 U 1 1 6026187B
 P 4550 5750
-F 0 "J10" H 4630 5792 50  0000 L CNN
+F 0 "J2" H 4630 5792 50  0000 L CNN
 F 1 "Conn_01x03" H 4630 5701 50  0000 L CNN
 F 2 "Connector_PinHeader_1.27mm:PinHeader_1x03_P1.27mm_Vertical" H 4550 5750 50  0001 C CNN
 F 3 "~" H 4550 5750 50  0001 C CNN
@@ -102,10 +102,10 @@ F 3 "~" H 4550 5750 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Connector_Generic:Conn_01x03 J14
+L Connector_Generic:Conn_01x03 J10
 U 1 1 60261885
 P 4550 6940
-F 0 "J14" H 4630 6982 50  0000 L CNN
+F 0 "J10" H 4630 6982 50  0000 L CNN
 F 1 "Conn_01x03" H 4630 6891 50  0000 L CNN
 F 2 "Connector_PinHeader_1.27mm:PinHeader_1x03_P1.27mm_Vertical" H 4550 6940 50  0001 C CNN
 F 3 "~" H 4550 6940 50  0001 C CNN
@@ -124,10 +124,10 @@ F 3 "~" H 6050 6940 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Connector_Generic:Conn_01x03 J15
+L Connector_Generic:Conn_01x03 J14
 U 1 1 602682E1
 P 4550 7540
-F 0 "J15" H 4630 7582 50  0000 L CNN
+F 0 "J14" H 4630 7582 50  0000 L CNN
 F 1 "Conn_01x03" H 4630 7491 50  0000 L CNN
 F 2 "Connector_PinHeader_1.27mm:PinHeader_1x03_P1.27mm_Vertical" H 4550 7540 50  0001 C CNN
 F 3 "~" H 4550 7540 50  0001 C CNN
@@ -146,10 +146,10 @@ F 3 "~" H 3050 5750 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Connector_Generic:Conn_01x03 J5
+L Connector_Generic:Conn_01x03 J0
 U 1 1 602682F5
 P 1550 5750
-F 0 "J5" H 1630 5792 50  0000 L CNN
+F 0 "J0" H 1630 5792 50  0000 L CNN
 F 1 "Conn_01x03" H 1630 5701 50  0000 L CNN
 F 2 "Connector_PinHeader_1.27mm:PinHeader_1x03_P1.27mm_Vertical" H 1550 5750 50  0001 C CNN
 F 3 "~" H 1550 5750 50  0001 C CNN
@@ -157,10 +157,10 @@ F 3 "~" H 1550 5750 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Connector_Generic:Conn_01x03 J9
+L Connector_Generic:Conn_01x03 J8
 U 1 1 602682FF
 P 1550 6940
-F 0 "J9" H 1630 6982 50  0000 L CNN
+F 0 "J8" H 1630 6982 50  0000 L CNN
 F 1 "Conn_01x03" H 1630 6891 50  0000 L CNN
 F 2 "Connector_PinHeader_1.27mm:PinHeader_1x03_P1.27mm_Vertical" H 1550 6940 50  0001 C CNN
 F 3 "~" H 1550 6940 50  0001 C CNN
@@ -709,10 +709,10 @@ F 3 "" H 4350 6340 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L Connector_Generic:Conn_01x03 J7
+L Connector_Generic:Conn_01x03 J4
 U 1 1 602682CD
 P 1550 6340
-F 0 "J7" H 1630 6382 50  0000 L CNN
+F 0 "J4" H 1630 6382 50  0000 L CNN
 F 1 "Conn_01x03" H 1630 6291 50  0000 L CNN
 F 2 "Connector_PinHeader_1.27mm:PinHeader_1x03_P1.27mm_Vertical" H 1550 6340 50  0001 C CNN
 F 3 "~" H 1550 6340 50  0001 C CNN
@@ -720,10 +720,10 @@ F 3 "~" H 1550 6340 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Connector_Generic:Conn_01x03 J3
+L Connector_Generic:Conn_01x03 J5
 U 1 1 602682C3
 P 3050 6350
-F 0 "J3" H 3130 6392 50  0000 L CNN
+F 0 "J5" H 3130 6392 50  0000 L CNN
 F 1 "Conn_01x03" H 3130 6301 50  0000 L CNN
 F 2 "Connector_PinHeader_1.27mm:PinHeader_1x03_P1.27mm_Vertical" H 3050 6350 50  0001 C CNN
 F 3 "~" H 3050 6350 50  0001 C CNN
@@ -731,10 +731,10 @@ F 3 "~" H 3050 6350 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Connector_Generic:Conn_01x03 J6
+L Connector_Generic:Conn_01x03 J7
 U 1 1 60261871
 P 6050 6340
-F 0 "J6" H 6130 6382 50  0000 L CNN
+F 0 "J7" H 6130 6382 50  0000 L CNN
 F 1 "Conn_01x03" H 6130 6291 50  0000 L CNN
 F 2 "Connector_PinHeader_1.27mm:PinHeader_1x03_P1.27mm_Vertical" H 6050 6340 50  0001 C CNN
 F 3 "~" H 6050 6340 50  0001 C CNN
@@ -742,17 +742,17 @@ F 3 "~" H 6050 6340 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Connector_Generic:Conn_01x03 J2
+L Connector_Generic:Conn_01x03 J6
 U 1 1 60261747
 P 4550 6340
-F 0 "J2" H 4630 6382 50  0000 L CNN
+F 0 "J6" H 4630 6382 50  0000 L CNN
 F 1 "Conn_01x03" H 4630 6291 50  0000 L CNN
 F 2 "Connector_PinHeader_1.27mm:PinHeader_1x03_P1.27mm_Vertical" H 4550 6340 50  0001 C CNN
 F 3 "~" H 4550 6340 50  0001 C CNN
 	1    4550 6340
 	1    0    0    -1  
 $EndComp
-Text GLabel 1720 990  1    50   Input ~ 0
+Text GLabel 2020 700  2    50   Input ~ 0
 VDD_ANALOG
 $Comp
 L Device:C C3
@@ -1151,4 +1151,40 @@ F 3 "" H 9260 1220 50  0001 C CNN
 	1    9260 1220
 	0    -1   -1   0   
 $EndComp
+$Comp
+L Device:R R6
+U 1 1 6028AC6A
+P 1870 700
+F 0 "R6" V 1663 700 50  0000 C CNN
+F 1 "3.3k" V 1754 700 50  0000 C CNN
+F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder" V 1800 700 50  0001 C CNN
+F 3 "~" H 1870 700 50  0001 C CNN
+	1    1870 700 
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:R R5
+U 1 1 60293161
+P 1570 700
+F 0 "R5" V 1363 700 50  0000 C CNN
+F 1 "3.3k" V 1454 700 50  0000 C CNN
+F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder" V 1500 700 50  0001 C CNN
+F 3 "~" H 1570 700 50  0001 C CNN
+	1    1570 700 
+	0    1    1    0   
+$EndComp
+$Comp
+L power:GND #PWR0120
+U 1 1 60293CDE
+P 1420 700
+F 0 "#PWR0120" H 1420 450 50  0001 C CNN
+F 1 "GND" H 1425 527 50  0000 C CNN
+F 2 "" H 1420 700 50  0001 C CNN
+F 3 "" H 1420 700 50  0001 C CNN
+	1    1420 700 
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	1720 990  1720 700 
+Connection ~ 1720 700 
 $EndSCHEMATC
