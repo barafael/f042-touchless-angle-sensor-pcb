@@ -752,8 +752,6 @@ F 3 "~" H 4550 6340 50  0001 C CNN
 	1    4550 6340
 	1    0    0    -1  
 $EndComp
-Text GLabel 2020 700  2    50   Input ~ 0
-VDD_ANALOG
 $Comp
 L Device:C C3
 U 1 1 60664424
@@ -1152,39 +1150,14 @@ F 3 "" H 9260 1220 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L Device:R R6
-U 1 1 6028AC6A
-P 1870 700
-F 0 "R6" V 1663 700 50  0000 C CNN
-F 1 "3.3k" V 1754 700 50  0000 C CNN
-F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder" V 1800 700 50  0001 C CNN
-F 3 "~" H 1870 700 50  0001 C CNN
-	1    1870 700 
-	0    1    1    0   
-$EndComp
-$Comp
-L Device:R R5
-U 1 1 60293161
-P 1570 700
-F 0 "R5" V 1363 700 50  0000 C CNN
-F 1 "3.3k" V 1454 700 50  0000 C CNN
-F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder" V 1500 700 50  0001 C CNN
-F 3 "~" H 1570 700 50  0001 C CNN
-	1    1570 700 
-	0    1    1    0   
-$EndComp
-$Comp
-L power:GND #PWR0120
-U 1 1 60293CDE
-P 1420 700
-F 0 "#PWR0120" H 1420 450 50  0001 C CNN
-F 1 "GND" H 1425 527 50  0000 C CNN
-F 2 "" H 1420 700 50  0001 C CNN
-F 3 "" H 1420 700 50  0001 C CNN
-	1    1420 700 
+L power:VDD #PWR?
+U 1 1 602AAB5D
+P 1720 990
+F 0 "#PWR?" H 1720 840 50  0001 C CNN
+F 1 "VDD" H 1735 1163 50  0000 C CNN
+F 2 "" H 1720 990 50  0001 C CNN
+F 3 "" H 1720 990 50  0001 C CNN
+	1    1720 990 
 	1    0    0    -1  
 $EndComp
-Wire Wire Line
-	1720 990  1720 700 
-Connection ~ 1720 700 
 $EndSCHEMATC
